@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<title> Alexandre Canton Condes </title>
+		<meta charset="UTF8"/>
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+	<body>
+
+<!-- 		<div class="header">
+			<p> Header </p>
+		</div> -->
+
+		<div>
+
+		<h1 align="center"> Alexandre Canton Condes </h1>
+		
+		<ul>
+			<li> Adresse email : adresse.email@live.fr </li>
+			<li> Tel : 06 XX XX XX XX </li>
+		</ul>
+		
+		<br>
+		
+		<h2 class="ep" align="center"> Expériences professionnelles </h2> <br>	
+
+		<table border="1" cellpadding="5" cellspacing="5"> 
+			<tr>
+				<td> <b> Année(s) </b> </td>
+				<td> <b> Titre du travail </b> </td>
+				<td> <b> Acquisitions </b> </td>
+			</tr>		
+			<tr>
+				<td> Eté 2013 </td>
+				<td> Emploie saisonnier à FMP Service éditique Saint-Lazare </td>
+				<td> Travail sur machine d'impremerie, manutention, inventaire </td>
+			</tr>
+			<tr>
+				<td> Octobre 2016 </td>
+				<td> Magasinier en librairie </td>
+				<td> Reprise des invendus, disposition des journaux de presse, Informer la clientèle </td>
+			</tr>
+		</table>
+		<br>	
+			
+		<h2 class="ps" align="center"> Parcours scolaire </h2>
+		<br>	
+
+		<table border="1" cellpadding="5" cellspacing="5"> 	
+					<tr>
+				<td> <b> Année(s) </b> </td>
+				<td> <b> Etablissement </b> </td>
+				<td> <b> Diplôme obtenu </b> </td>
+			</tr>		
+			<tr>
+				<td> 2008 à 2011 </td>
+				<td> Lycée Blaise Cendras à Sevran-Livry </td>
+				<td> Baccalauréat Général (Spécialité Science et Vie de la Terre) </td>
+			</tr>
+			<tr>
+				<td> 2017 à 2018 </td>
+				<td> Licence Pluriscience, spécialité Informatique </td>
+				<td> </td>
+			</tr>
+		</table>
+		
+		<br>
+
+		<h3 align="center"> Langues </h3>
+		<br>
+			<ul>
+				<li> Anglais </li>
+				<li> Espagnol </li>
+			</ul>
+
+		<br>
+		
+		<h3 align="center"> Loisirs </h3>
+		<br>	
+		
+			<ul>
+				<li> Pop-Culture : Jeux-Vidéos, Mangas, Web séries </li>
+			</ul>
+		</div>
+
+<!-- 		<div class="footer">
+			<p> Footer </p>
+		</div> -->
+
+	</body>
+</html>

@@ -1,0 +1,108 @@
+body, html {
+	background-image: url("2.jpg");
+	background-attachment: fixed;
+	font-family: Lato/*Garuda*//*Comfortaa*/; 
+	height: 100%;
+	color: #FFFFFF;
+}
+div {
+	max-width: 80%;
+	margin-left: 5%;
+	margin-right: 2%;
+	padding: 5%;
+
+}
+
+
+
+.header, .footer, .main {
+	background-color: rgba(0, 0, 0, 0.40);
+	max-width: 80%;
+	position: relative;
+}
+.header {
+	background-image: url("10.jpeg");
+	position: top;
+
+}
+#sousHeader {
+	background-color: rgba(0, 0, 0, 0.65);
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+
+	font-size: 18px;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+
+	border-radius: 50%;
+}
+#titre {
+	color: #FFFFFF;
+	font-size: 300%;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+}
+
+
+
+
+.main {
+	position: center;
+}
+td {
+   border-left-style: solid;
+   border-color: rgba(100, 100, 100, 0.45);
+   background-color: rgba(0, 0, 0, 0.30);
+}
+.sousTitre {
+	border-left-style: none;
+	text-align: center;
+}
+table {
+   margin-left: auto;
+   margin-right: auto;
+	text-shadow: 2px 2px #000000;
+}
+h2 {
+	text-shadow: 2px 2px #000000;
+}
+
+
+
+#sousFooter1 {
+	background-color: rgba(0, 0, 0, 0.30);
+	position: absolute;
+	bottom: 10%;
+	left: 0%;
+
+	object-position: 5000% 5000%
+
+	font-size: 18px;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+
+	border-radius: 50%;
+}
+#sousFooter2 {
+	background-color: rgba(0, 0, 0, 0.30);
+	position: absolute;
+	bottom: 10%;
+	right: 0%;
+
+	object-position: 5000% 5000%
+
+	font-size: 18px;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+
+	border-radius: 50%;
+}
+#Ang {
+	display: list-item;
+	list-style-image: url(Ang.gif);
+}
+#Esp {
+	display: list-item;
+	list-style-image: url(Esp.gif);
+}

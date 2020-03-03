@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<title> Questionnaire </title>
+		<meta charset="UTF8"/>
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+	<body>
+		<form action="correction_quizz.php">
+		
+			<h1> Quizz sur James Bond </h1>
+			
+				<ul>	
+					<br> 
+					<li> A quelle date est sorti le film Casino Royal ? </li>
+						<ol> 
+							<li> 1954 <input name="Q1" type="radio" value="0"/> </li>
+							<li> 2004 <input name="Q1" type="radio" value="0"/> </li>
+							<li> 2006 <input name="Q1" type="radio" value="1"/> </li> 
+						</ol> 
+						<br>
+						
+					 <li> Quelle boisson alcoolisée James boit-il le plus ? </li>
+						<ol> 
+							<li> Du whisky <input name="Q2" type="radio" value="0"/> </li>
+							<li> Des Vodka-Martini <input name="Q2" type="radio" value="1"/> </li>
+							<li> Du saké <input name="Q2" type="radio" value="0"/> </li> 
+						</ol> 
+						<br> 
+						
+					<li> Quelle voiture James Bond ne conduit pas dans Skyfall ? </li>
+						<ol> 
+							<li> Aston Martin DB5 <input name="Q3" type="radio" value="0"/> </li>
+							<li> Mercedes-Benz Classe S <input name="Q3" type="radio" value="0"/> </li>
+							<li> BMW Z8 <input name="Q3" type="radio" value="1"/> </li> 
+						</ol>
+						
+				</ul>
+
+				<input value="Envoyer !" type="submit">			
+		</form>
+	</body>
+</html>

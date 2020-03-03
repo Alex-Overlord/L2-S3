@@ -1,0 +1,45 @@
+body {
+    background-image: url("2.jpg");
+    background-attachment: fixed;
+    font-family: Comforta;
+}
+div {
+    max-width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+}
+.header, .footer {
+    background-color: rgba(0, 0, 0, 0.65);
+    max-width: 80%
+}
+
+h1,h2,h3,table {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+h1 {
+    color: rgba(255, 150, 60, 1);
+    border: 1px solid Gray;
+}
+h2.ep {
+    color: rgba(60, 60, 255, 1);
+    border: 1px solid Gray;
+}
+h2.ps {
+    color: rgba(150, 60, 200, 1);
+    border: 1px solid Gray;
+}
+h3 {
+	color: #AA2222;
+    border: 1px solid Gray;
+}
+ul {
+    color: YellowGreen; 
+    font-family: Noto Sans;
+}
+table {
+    color: #FFFFFF;
+	border: 1px solid Black;
+    margin-left: auto;
+    margin-right: auto;
+}

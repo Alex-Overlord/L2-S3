@@ -1,0 +1,58 @@
+{ "Theme": "James Bond",
+	"url" : "correction_quizz.php",
+	"questions": 
+	[ 
+		{ 
+			"question": "A quelle date est sorti le film Casino Royale ?",
+			"reponses": 
+			[  
+				{
+					"choix": "1954",
+					"score": "0"
+				},
+				{ 
+					"choix": "2004",
+					"score": "0"
+				},
+				{ 
+					"choix": "2006",
+					"score": "1"
+				} 
+			] 
+		}, 
+		{ "question": "Quelle boisson alcoolisée James boit-il le plus ?",
+			"reponses": 
+			[  
+				{ 
+					"choix": "Du wisky",
+					"score": "0"
+				},
+				{ 
+					"choix": "Des Vodka-Martini",
+					"score": "1"
+				},
+				{ 
+					"choix": "Du saké",
+					"score": "0"
+				}
+			]
+		},
+		{ "question": "Quelle voiture James Bond ne conduit pas dans Skyfall ?",
+			"reponses":
+			[
+				{
+					"choix": "Aston Martin DB5",
+					"score": "0"
+				},
+				{
+					"choix": "Mercedes-Benz Classe S",
+					"score": "0"
+				},
+				{
+					"choix": "BMW Z8",
+					"score": "1"
+				}
+			]
+		}
+	]
+}
