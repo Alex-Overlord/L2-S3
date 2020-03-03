@@ -1,0 +1,17 @@
+INSERT INTO acteur
+VALUES (1, 'lamouchi', 'ambre', 'française');
+
+INSERT INTO acteur
+VALUES (2, 'Do', 'John', 'suisse');
+
+INSERT INTO realisateur
+VALUES (11, 'tarantino', 'quentin', 'américain');
+
+INSERT INTO genre
+VALUES (111, 'action');
+
+INSERT INTO film
+VALUES (1111, 'Pulp Fiction', 1994, 'Etats-Unis', 1234, 11, 111);
+
+INSERT INTO jouer
+VALUES (1, 1111, 1000000);

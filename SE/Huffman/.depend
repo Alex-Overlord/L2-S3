@@ -1,0 +1,1 @@
+huf.o: huf.c huf.h

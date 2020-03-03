@@ -1,0 +1,26 @@
+digraph G {   label = "Dictionnaire" 
+graph [ fontname=fixed, fontsize = 20];node [ fontname=fixed, fontsize = 20];edge [ fontname=fixed, fontsize = 20];94411651915728 [label="false" ] ;
+94411651915728 -> 94411651915696 [color="red",label="0" ] ;
+94411651915696 [label="false" ] ;
+94411651915696 -> 94411651915664 [color="red",label="0" ] ;
+94411651915664 [label="true" ] ;
+94411651915696 -> 94411651915632 [color="blue",label="1" ] ;
+94411651915632 [label="true" ] ;
+94411651915632 -> 94411651915600 [color="blue",label="1" ] ;
+94411651915600 [label="false" ] ;
+94411651915600 -> 94411651915568 [color="blue",label="1" ] ;
+94411651915568 [label="true" ] ;
+94411651915568 -> 94411651915536 [color="red",label="0" ] ;
+94411651915536 [label="false" ] ;
+94411651915568 -> 94411651915504 [color="blue",label="1" ] ;
+94411651915504 [label="true" ] ;
+94411651915728 -> 94411651915472 [color="blue",label="1" ] ;
+94411651915472 [label="true" ] ;
+94411651915472 -> 94411651915440 [color="red",label="0" ] ;
+94411651915440 [label="false" ] ;
+94411651915440 -> 94411651915408 [color="red",label="0" ] ;
+94411651915408 [label="true" ] ;
+94411651915472 -> 94411651915376 [color="blue",label="1" ] ;
+94411651915376 [label="true" ] ;
+
+ }

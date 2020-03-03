@@ -1,0 +1,64 @@
+\hypertarget{huf_8c}{}\section{huf.\+c File Reference}
+\label{huf_8c}\index{huf.\+c@{huf.\+c}}
+
+
+Compresseur.  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}huf.\+h\char`\"{}}\newline
+Include dependency graph for huf.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=316pt]{huf_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{huf_8c_af3a761f4d61ef26e5209b428d977da4f}\label{huf_8c_af3a761f4d61ef26e5209b428d977da4f}} 
+void {\bfseries calcul\+Freq} (char $\ast$fichier)
+\item 
+\mbox{\Hypertarget{huf_8c_a5f279d4f0903b03455ccd8b26a9170c7}\label{huf_8c_a5f279d4f0903b03455ccd8b26a9170c7}} 
+void {\bfseries affiche\+Freq} ()
+\item 
+\mbox{\Hypertarget{huf_8c_a79a3701ceb6a1cc2fa23acdd0e1e5427}\label{huf_8c_a79a3701ceb6a1cc2fa23acdd0e1e5427}} 
+void {\bfseries init\+Arbre} ()
+\item 
+\mbox{\Hypertarget{huf_8c_ae10b899b8a3196bbc2f5fdb95856dd97}\label{huf_8c_ae10b899b8a3196bbc2f5fdb95856dd97}} 
+void {\bfseries affiche\+Arbre} ()
+\item 
+\mbox{\Hypertarget{huf_8c_a7c1e4d5f951b5b24771c5b000a8d94d7}\label{huf_8c_a7c1e4d5f951b5b24771c5b000a8d94d7}} 
+void {\bfseries construct\+Arbre} ()
+\item 
+\mbox{\Hypertarget{huf_8c_a8fee947ba260b5049ea5b33048b0cf63}\label{huf_8c_a8fee947ba260b5049ea5b33048b0cf63}} 
+void {\bfseries parcours} (int indice\+Noeud, char $\ast$code)
+\item 
+\mbox{\Hypertarget{huf_8c_ade9ffb32e10a0cc2be0c4ac98b39f96f}\label{huf_8c_ade9ffb32e10a0cc2be0c4ac98b39f96f}} 
+void {\bfseries del\+\_\+char} (char $\ast$str, char c)
+\item 
+\mbox{\Hypertarget{huf_8c_a5dfef645b3ad6843612c13686a4d1222}\label{huf_8c_a5dfef645b3ad6843612c13686a4d1222}} 
+void {\bfseries cree\+Fiche} (char $\ast$fichier)
+\item 
+\mbox{\Hypertarget{huf_8c_a3c04138a5bfe5d72780bb7e82a18e627}\label{huf_8c_a3c04138a5bfe5d72780bb7e82a18e627}} 
+int {\bfseries main} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Compresseur. 
+
+\begin{DoxyAuthor}{Author}
+Ambre.\+Lamouchi Alexandre.\+Canton.\+Condes 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+7 décembre 2018
+\end{DoxyDate}
+Programme de compression utilisant l\textquotesingle{}algorithme de Huffman 

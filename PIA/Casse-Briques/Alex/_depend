@@ -1,0 +1,2 @@
+window.o: window.cpp window.h
+main.o: main.cpp window.h

@@ -1,0 +1,16 @@
+CC 		= g++
+CC_FLAGS 	= -g -O0 -ansi -pedantic -Wall
+PROG_NAME 	= itv
+SOURCES		= itv.cpp #itv-main.cpp
+HEADERS 	= itv.h
+
+all: $(PROG_NAME)
+
+#itv.o: itv.cpp
+#	$(CC) -c itv.cpp
+
+#itv-main.o: itv-main.cpp
+# 	$(CC) -c itv-main.cpp
+
+$(PROG_NAME): $(SOURCES:.cpp=.o)
+	$(CC) $(SOURCES:.cpp=.o) -o $(PROG_NAME)

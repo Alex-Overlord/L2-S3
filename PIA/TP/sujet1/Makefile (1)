@@ -1,0 +1,18 @@
+CC 			= g++
+PROG_NAME 	= prog
+SOURCE 		= main.cpp
+# SOURCE		= 1.cpp 2.cpp 3.cpp
+
+all: $(PROG_NAME)
+
+# 1.o: 1.cpp
+# 	$(CC) -c 1.cpp
+
+# 2.o: 1.cpp 2.cpp
+# 	$(CC) -c 2.cpp
+
+# 3.o: 1.cpp 2.cpp 3.cpp
+# 	$(CC) -c 3.cpp
+
+$(PROG_NAME): $(SOURCE:.c=.o)
+	$(CC) $(SOURCE:.c=.o) -o $(PROG_NAME)

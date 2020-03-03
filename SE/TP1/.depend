@@ -1,0 +1,3 @@
+p.o: p.c p.h i.h
+i.o: i.c i.h p.h
+spair.o: spair.c p.h i.h

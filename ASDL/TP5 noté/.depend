@@ -1,0 +1,3 @@
+mainTP5.o: mainTP5.cpp progListeSC.h fichierTP5.h
+progListeSC.o: progListeSC.cpp progListeSC.h
+fichierTP5.o: fichierTP5.cpp progListeSC.h fichierTP5.h

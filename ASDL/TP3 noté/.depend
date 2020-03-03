@@ -1,0 +1,3 @@
+fichierTP3.o: fichierTP3.cpp progListeSC.h fichierTP3.h
+progListeSC.o: progListeSC.cpp progListeSC.h
+mainTP3.o: mainTP3.cpp progListeSC.h fichierTP3.h

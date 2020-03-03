@@ -1,0 +1,2 @@
+livre.o: livre.cpp livre.h
+main.o: main.cpp livre.h

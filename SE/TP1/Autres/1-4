@@ -1,0 +1,15 @@
+- Exercice 1 : Quelle différence existe-t-il entre un interpréteur et un compilateur ?
+Citez deux exemples pour chacun d'entre eux.
+
+Compilateur : compile une fois, crée un code binaire et exécution autant que l'on veut sans devoir recompiler mais portabilité limité.
+
+Interpréteur : interprête à chaque fois, ne crée pas de fichier et doit être réinterpréter à chaque fois que l'on veut l'exécuter mais meilleure portabilité.
+
+
+- Exercice 2 : Quelles similitudes et quelles différence existe-t-il entre un fichier d'en-tête (toto.h) et une bibliothèque ? Quand les utilise-t-on dans le processus de compilation ?
+Citez deux exemples pour chacun d'entre eux.
+
+En-tête : fichier de déclaration (classes, fonctions, variables, etc...)
+Bibliothèque : fichier contenant un ensemble de fonctions, d'outils, etc...
+
+- Exo 3 : les fichiers d'en-tête standard sont dans un emplacement spécial et entre chevrons et contienent du code source. Alors que les fichier d'en-tête personnel .h ne contiennent pas de code juste des déclarations de fonctions/classes et des variables.

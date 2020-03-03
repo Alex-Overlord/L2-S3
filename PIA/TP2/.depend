@@ -1,0 +1,2 @@
+fichierTP2.o: fichierTP2.cpp progListeSC.h
+progListeSC.o: progListeSC.cpp progListeSC.h

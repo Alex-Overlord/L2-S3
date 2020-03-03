@@ -1,0 +1,2 @@
+option.o: option.cpp option.h
+main.o: main.cpp option.h

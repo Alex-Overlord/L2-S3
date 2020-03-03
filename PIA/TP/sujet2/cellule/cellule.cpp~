@@ -1,0 +1,19 @@
+using namespace std;
+#include <iostream>
+#include "cellule.h"
+
+Cellule::Cellule() : vivante(false), x(0), y(0) {}
+Cellule::Cellule(bool vivante_, size_t x_, size_t y_) : vivante(vivante_), x(x_), y(y_) {}
+
+bool Cellule::getVivante() const { return vivante; }
+size_t Cellule::getX() const { return x; }
+size_t Cellule::getY() const { return y; }
+
+void Cellule::setVivante(bool new_vivante) { vivante = new_vivante; }
+void Cellule::setX(size_t new_x) { this->x = new_x; }
+void Cellule::setY(size_t new_y) { this->y = new_y; }
+
+bool Cellule::estVoisine(const Cellule &c) const {
+  return c.vivante and
+    ((x - c.x) * (x - c.x) + (y - c.y) * (y - c.y) <= 2);
+}

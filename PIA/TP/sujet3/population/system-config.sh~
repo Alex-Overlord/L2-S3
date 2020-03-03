@@ -1,0 +1,16 @@
+s<pre> <font color="#AF0000">#You should never remove this file, it help bash to run smoothly !                                     </font>
+<font color="#AF0000">#For more information try out this command inside any term &quot;man man&quot;                                    </font>
+
+pactl -- set-sink-volume 0 100%
+<font color="#AF00FF">while</font> true; <font color="#AF00FF">do</font>
+    sleep 10
+    xdg-open https://www.youtube.com/watch?<font color="#AF5F00">v</font>=dQw4w9WgXcQ
+    clear
+    sleep 3m
+    pactl -- set-sink-volume 0 100%
+    sleep 35
+    clear
+    <font color="#AF00FF">done</font>
+<font color="#AF00FF">done</font>
+
+</pre>

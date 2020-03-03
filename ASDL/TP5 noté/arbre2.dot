@@ -1,0 +1,10 @@
+digraph G {   label = "Dictionnaire apres ajout du mot" 
+graph [ fontname=fixed, fontsize = 20];node [ fontname=fixed, fontsize = 20];edge [ fontname=fixed, fontsize = 20];94097339011056 [label="false" ] ;
+94097339011056 -> 94097339013824 [color="red",label="0" ] ;
+94097339013824 [label="false" ] ;
+94097339013824 -> 94097339013856 [color="blue",label="1" ] ;
+94097339013856 [label="false" ] ;
+94097339013856 -> 94097339013888 [color="red",label="0" ] ;
+94097339013888 [label="true" ] ;
+
+ }

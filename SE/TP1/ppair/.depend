@@ -1,0 +1,1 @@
+ppair.o: ppair.c p.h i.h

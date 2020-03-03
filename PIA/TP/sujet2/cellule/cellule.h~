@@ -1,0 +1,14 @@
+#ifndef CELLULE_H
+#define CELLULE_H
+
+class Cellule {
+ private:
+  const size_t x, y;
+  bool vivante;
+
+ public:
+  Cellule(size_t x, size_t y, bool vivante);
+
+  bool estVivanteEtVoisine(Cellule &C) const; 
+};
+#endif

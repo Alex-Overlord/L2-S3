@@ -1,0 +1,2 @@
+main.o: main.cpp progListeSC.h
+progListeSC.o: progListeSC.cpp progListeSC.h

@@ -1,0 +1,11 @@
+		- TD1 -
+		
+Algorithme 1 : recherche (d T : tableau d'entier, d x : entier, r present : booléen, r PP : entier)
+Données : T un tableau d'entier ; x un entier
+Résultat : Si T contient un élément de valeur x, present est true, sinon present est false et PP est un des éléments
+	de T lesp lus proches de x, c'est-à-dire PP appartenant à T et pour tout i appartenant à [0..taille(T)[,|x-T[i]|
+Variable : i : entier naturel, PP : entier
+
+début
+	present <- false
+	tant que i < taille(T) et T(i) < e faire
